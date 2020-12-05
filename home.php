@@ -14,8 +14,6 @@
         <h2>Register</h2>
     </div>
     <form action="home.php" method = "post">
-        <!-- Display validation errors  -->
-        <?php include ('errors.php')?>
         <div class="input-group">
             <label >Username</label>
             <input type="text" name = "username">
